@@ -18,4 +18,9 @@ public class UserServiceImpl implements UserService{
 
         return dao.queryAll();
     }
+
+    @Override
+    public User queryLogin(User user) {
+        return dao.queryLogin(user);
+    }
 }

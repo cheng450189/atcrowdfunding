@@ -9,4 +9,8 @@ public interface UserDao {
 
      @Select("select * from user")
      List<User> queryAll();
+
+     @Select("select * from user where loginacct = #{loginacct} and userpswd = #{userpswd}")
+//     @Select("select * from user")
+     User queryLogin(User user);
 }
