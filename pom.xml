@@ -6,17 +6,14 @@
 
     <groupId>com.atguigu</groupId>
     <artifactId>atcrowdfunding-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    
+    <version>1.0-SNAPSHOT</version>    
     <modules>
         <module>atcrowdfunding-common</module>
         <module>atcrowdfunding-manager</module>
         <module>atcrowdfunding-protal</module>
         <module>atcrowdfunding-web</module>
     </modules>
-    
     <packaging>pom</packaging>
-    
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
